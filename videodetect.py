@@ -5,7 +5,7 @@ LastEditors: SingleBiu
 LastEditTime: 2024-10-17 16:09:03
 Description: A demo for face detect
 '''
-import cv2 as cv
+pipimport cv2 as cv
 
 def face_detect_method(img):
     grey_img = cv.cvtColor(img,cv.COLOR_BGR2GRAY)
